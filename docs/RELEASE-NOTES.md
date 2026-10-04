@@ -19,5 +19,5 @@ Download the unified `.bin`, the profile for your model (`72.json` for the 266,
 GitHub release verifies the flat release downloads; `SHA256SUMS` inside the ZIP
 verifies repository files using their packaged paths.
 
-See [flashing instructions](FLASHING.md), [browser test](BROWSER-TEST.md),
-[validation limits](VALIDATION.md) and [component licensing](CREDITS.md).
+See [flashing instructions](https://github.com/gerard780/nebular-pro-qn-atc-oepl/blob/main/docs/FLASHING.md), [browser test](https://github.com/gerard780/nebular-pro-qn-atc-oepl/blob/main/docs/BROWSER-TEST.md),
+[validation limits](https://github.com/gerard780/nebular-pro-qn-atc-oepl/blob/main/docs/VALIDATION.md) and [component licensing](https://github.com/gerard780/nebular-pro-qn-atc-oepl/blob/main/docs/CREDITS.md).
