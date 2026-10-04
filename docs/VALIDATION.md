@@ -34,9 +34,19 @@ upstream browser flasher: file selection, BLE format acceptance, and the UART
 write loop run with simulated flash operations. Simulation validates the file
 and address range; it does not exercise a physical programmer.
 
+The subsequent [browser hardware test](BROWSER-TEST.md) passed on the
+legacy-record 266: native Web Serial, CH340, Chromium 153.0.8010.52,
+921600 baud, 1-second activation and the unmodified live ATC uploader. A marker
+outside the firmware image but inside its final erased sector proved that
+hardware flash was erased. The entire 128 KiB application matched afterward;
+settings, factory product data, calibration and flash protection were preserved.
+Automatic type `0072`, geometry and pins were verified after restarting.
+A fresh RAW image also passed physical inspection for text, orientation,
+four colors and rectangle outlines after correcting the test bitmap's layout.
+
 ## Still unverified
 
-- ATC browser UART installation on a physical tag.
+- Browser UART installation on the 154, newer-record 266 or from factory firmware.
 - BLE/OTA firmware installation and bootloader behavior.
 - Unified-v2 physical rendering on the newer factory-record 266; only the
   legacy-record 266 and captured 154 were physically tested with unified v2.

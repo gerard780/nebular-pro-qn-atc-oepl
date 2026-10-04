@@ -45,13 +45,16 @@ has not been physically tested. Other sizes and revisions are unsupported.
 
 ## Can ATC_BLE_OEPL flash it?
 
-**It should work with the wired UART Flasher in the
-[ATC_BLE_OEPL uploader](https://atc1441.github.io/ATC_BLE_OEPL_Image_Upload.html).**
-The file passes the inspected uploader's Telink signature and length checks,
-and its **Write Firmware** path writes the application from address zero while
-preserving upper factory flash. Browser-to-hardware flashing itself remains
-**untested**. Hardware installation was verified with guarded wired programmers.
-Read [the exact workflow and backup requirements](docs/FLASHING.md) first.
+**Yes: ATC's wired browser UART flasher was verified on the legacy-record 2.66″
+tag.** The unmodified live
+[ATC_BLE_OEPL uploader](https://atc1441.github.io/ATC_BLE_OEPL_Image_Upload.html)
+passed using Chromium, CH340, **921600 baud**, 1-second activation and
+**Write Firmware**. A marker in unused application padding proved a real flash
+erase; full application readback matched, and settings/product/calibration were
+unchanged. This was a reflash of an already installed unified v2 application.
+Browser installation on the 154 or directly from factory firmware remains
+untested. Read [the workflow and backup requirements](docs/FLASHING.md) and
+[browser test details](docs/BROWSER-TEST.md) first.
 
 **BLE/OTA firmware installation remains unverified.** Successful Bluetooth image
 uploads and passing the browser's firmware-file checks do not validate OTA.

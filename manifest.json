@@ -340,7 +340,7 @@
     }
   ],
   "profile_revision": "2026-10-04, version 2",
-  "browser_uart_installation": "Source checks passed; browser-to-hardware installation untested",
+  "browser_uart_installation": "Verified reflash on legacy-record 266 using unmodified live ATC uploader, Chromium 153.0.8010.52, CH340, 921600 baud, 1-second activation; padding-marker erase proof and all 128 KiB application bytes verified. Browser 154 and factory-first installation untested.",
   "ble_ota_installation": "Unverified",
   "application_start": 0,
   "application_erase_end_exclusive": 131072,

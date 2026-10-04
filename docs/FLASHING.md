@@ -4,9 +4,13 @@
 
 Guarded wired installation, application readback, automatic panel configuration,
 and subsequent BLE/OEPL image delivery were verified on a 154 and a legacy-record
-266. The following ATC browser UART workflow is supported by source inspection
-and file-format checks, but has not been run against hardware with this binary.
-BLE/OTA firmware installation remains unverified.
+266. The ATC browser UART workflow below was also verified by reflashing unified
+v2 on the legacy-record 266 using the unmodified live uploader, Chromium
+153.0.8010.52, CH340, 921600 baud and 1-second activation. A padding-marker test
+proved an actual flash erase; all 128 KiB of application flash matched afterward,
+and settings/product/calibration were unchanged. See [the browser test](BROWSER-TEST.md).
+Browser installation on the 154, browser installation from factory firmware,
+and BLE/OTA firmware installation remain unverified.
 
 ## Before writing
 
@@ -26,13 +30,14 @@ BLE/OTA firmware installation remains unverified.
 Do not erase the entire chip. The firmware needs the original product record at
 `0x7e000`, and a full-chip backup also preserves settings and calibration data.
 
-## Intended ATC browser UART workflow
+## ATC browser UART workflow
 
 1. Open the [ATC_BLE_OEPL uploader](https://atc1441.github.io/ATC_BLE_OEPL_Image_Upload.html)
    in a browser supporting Web Serial. Switch to **Advanced View** if needed,
    then select **UART Flasher**.
 2. Connect the correctly wired programmer and open its COM port. Use the baud
-   rate and activation timing validated for your adapter and tag.
+   rate and activation timing validated for your adapter and tag. This 266
+   browser test passed at **921600 baud** with **1-second activation**.
 3. Choose the local file
    `EXPERIMENTAL_ATC_Nebular_154Q_266Q_Unified.bin` in the **UART Flasher** section.
    The expected size is **129,588 bytes**. The **Select Firmware** control in the
@@ -67,10 +72,12 @@ needed, and writes 256-byte blocks. For this file it erases 32 sectors:
 settings at `0x79000`, the product sector at `0x7e000`, or calibration at
 `0x7f000`. ATC's own first boot may initialize or update its settings sector.
 
-This establishes format and write-range compatibility with the inspected
-source. It does not establish electrical/programmer reliability, hardware
-browser installation, or OTA bootloader behavior. The source URL and inspected
-file hash are recorded in [flasher compatibility metadata](flasher-compatibility.json).
+These source checks establish format and write-range compatibility. The
+separate hardware test establishes browser reflashing on the one tested 266
+with the stated setup; it does not establish other programmers/revisions,
+first installation from factory firmware or OTA bootloader behavior. The source
+URL, inspected file hash and hardware result are recorded in
+[flasher compatibility metadata](flasher-compatibility.json).
 
 ## Recovery
 

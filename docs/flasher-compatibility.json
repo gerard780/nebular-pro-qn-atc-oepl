@@ -14,6 +14,37 @@
   "erase_end_exclusive": "0x20000",
   "write_blocks": 507,
   "bytes_at_and_above_0x20000_unchanged": true,
-  "physical_browser_uart_installation": "Untested",
-  "ble_ota_installation": "Unverified; frontend acceptance alone does not validate hardware update behavior"
+  "physical_browser_uart_installation": "Verified reflash on one legacy-record Nebular Pro-266Q-N",
+  "ble_ota_installation": "Unverified; frontend acceptance alone does not validate hardware update behavior",
+  "hardware_test": {
+    "date": "2026-10-04",
+    "browser": "Chromium 153.0.8010.52",
+    "native_web_serial": true,
+    "upstream_page_unmodified": true,
+    "programmer": "CH340",
+    "baud": 921600,
+    "activation_ms": 1000,
+    "write_action": "Write Firmware",
+    "same_binary_reflash": true,
+    "padding_marker_offset": "0x1fff0",
+    "padding_marker_erased": true,
+    "application_readback_bytes": 131072,
+    "application_readback_sha256": "da4c0ba5e3d702aa2f1062bbf2626d05afac4d4b37343685e1b1d5cbfb60d9ab",
+    "firmware_sha256": "be9fedc864d74d96f31697a99b629d56814e83225cb04e7cd9c61ff8ec7e083c",
+    "settings_factory_calibration_unchanged": true,
+    "original_flash_protection_intact": true,
+    "automatic_type": "0072",
+    "native_dimensions": [
+      152,
+      296
+    ],
+    "scope_limits": [
+      "Browser installation on 154 untested",
+      "Browser installation from factory firmware untested",
+      "BLE/OTA firmware installation unverified"
+    ],
+    "physical_image_verified": true,
+    "rectangle_outlines_verified": true,
+    "test_image_layout_corrected": true
+  }
 }

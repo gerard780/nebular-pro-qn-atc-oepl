@@ -19,8 +19,10 @@ Release body:
 > One firmware file automatically configures the three recognized product
 > records for supported Nebular Pro-154Q-N and Pro-266Q-N revisions. Physical
 > BLE and OEPL four-color image delivery passed on the 154 and legacy-record
-> 266 bench tags. Includes both version-2 AP profiles. ATC browser UART file and
-> write-range checks passed; physical browser installation and BLE/OTA firmware
+> 266 bench tags. Includes both version-2 AP profiles. ATC's unmodified browser
+> UART flasher passed a real reflash on the legacy-record 266 with CH340 at
+> 921600 baud, including flash-erase proof and full application readback.
+> Browser installation on the 154 or from factory firmware, and BLE/OTA firmware
 > updates remain unverified. Preserve a complete same-tag backup and factory
 > product sector. RAW1/RAW2 only; keep compression disabled.
 
