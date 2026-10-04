@@ -1,0 +1,392 @@
+{
+  "source": "Verified factory dumps; same-temperature comparison, not comparison of different installed temperature bands.",
+  "models": [
+    "Nebular Pro-266Q-N E3LW2 PCB30",
+    "Nebular Pro-154Q-N C3HW2 PCB39"
+  ],
+  "factory_panel_code_0x3a000_to_0x3e800_identical": true,
+  "palette_record_identical": true,
+  "all_temperature_boundaries_identical": true,
+  "rows": [
+    {
+      "band": 0,
+      "lower_exclusive_c": -128.0,
+      "upper_inclusive_c": 3.0,
+      "mode": 1,
+      "waveform_bytes": 535,
+      "differing_bytes": 178,
+      "percent_differing": 33.27,
+      "differing_payload_bytes": 175,
+      "payload_bytes": 528,
+      "differing_bits": 469,
+      "analog_header_266": "00287820282408",
+      "analog_header_154": "002c78322c2408",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "49ab0980d4a44fe580eaf66c8286cf6de95962c9b896390d1de50fe3e574e7e1",
+      "sha256_154": "91726f152779fd8a559fcf6f2bfd9f154f416c0b7748334d77721bebb8ceb9c9"
+    },
+    {
+      "band": 0,
+      "lower_exclusive_c": -128.0,
+      "upper_inclusive_c": 3.0,
+      "mode": 2,
+      "waveform_bytes": 535,
+      "differing_bytes": 25,
+      "percent_differing": 4.67,
+      "differing_payload_bytes": 24,
+      "payload_bytes": 528,
+      "differing_bits": 48,
+      "analog_header_266": "00147814143208",
+      "analog_header_154": "00147814143202",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "9a84375a8ef522403698f15025a4b0c47124743e7146b826cbe0a4c389fcfdb9",
+      "sha256_154": "40764087b8c585c8650975f46799781bd37df5b03fea6fb559c20b4e5cd78c89"
+    },
+    {
+      "band": 1,
+      "lower_exclusive_c": 3.0,
+      "upper_inclusive_c": 6.0,
+      "mode": 1,
+      "waveform_bytes": 535,
+      "differing_bytes": 146,
+      "percent_differing": 27.29,
+      "differing_payload_bytes": 142,
+      "payload_bytes": 528,
+      "differing_bits": 369,
+      "analog_header_266": "00237828232408",
+      "analog_header_154": "002a78322a2008",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "d1dcec66beeaf2758862c0e68fcdab4fa4c391221fa7b77af9ab4d762c28b8ff",
+      "sha256_154": "67ef1dd0404aa0a7deb549ef22838bdaaf25fb5629530376ef3ca41d8314634f"
+    },
+    {
+      "band": 1,
+      "lower_exclusive_c": 3.0,
+      "upper_inclusive_c": 6.0,
+      "mode": 2,
+      "waveform_bytes": 535,
+      "differing_bytes": 81,
+      "percent_differing": 15.14,
+      "differing_payload_bytes": 79,
+      "payload_bytes": 528,
+      "differing_bits": 191,
+      "analog_header_266": "00147814142808",
+      "analog_header_154": "00147814141c02",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "20d6335f660a90bc830b410e23d6aa486b7e8b55ed0d80bc5578e1b1d7deb662",
+      "sha256_154": "213eb95d81f70019e2723da4e7b1dc37495f67865d6ca588a1ce6916c5b7f1db"
+    },
+    {
+      "band": 2,
+      "lower_exclusive_c": 6.0,
+      "upper_inclusive_c": 9.0,
+      "mode": 1,
+      "waveform_bytes": 535,
+      "differing_bytes": 261,
+      "percent_differing": 48.79,
+      "differing_payload_bytes": 257,
+      "payload_bytes": 528,
+      "differing_bits": 620,
+      "analog_header_266": "00297832292408",
+      "analog_header_154": "00267828262008",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "e00c1ba66176f86b685899afe8a0e8a05d48d9868d3db7a2df03b7eb481ba17c",
+      "sha256_154": "4af06e7134041529544cf6bc4f92fd0d75bcad365a6d3c013182a1e3c2b3201e"
+    },
+    {
+      "band": 2,
+      "lower_exclusive_c": 6.0,
+      "upper_inclusive_c": 9.0,
+      "mode": 2,
+      "waveform_bytes": 535,
+      "differing_bytes": 78,
+      "percent_differing": 14.58,
+      "differing_payload_bytes": 77,
+      "payload_bytes": 528,
+      "differing_bits": 185,
+      "analog_header_266": "00147814142808",
+      "analog_header_154": "00147814142008",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "bdb9cf265051decb69cfd64c0dfd408f914ad4925b805489fc687d6317a0f7be",
+      "sha256_154": "1a753d5a84cab6c74b7b3f5030c9e7f4c9b863691cb0a2f02a5afe57fe8bbcad"
+    },
+    {
+      "band": 3,
+      "lower_exclusive_c": 9.0,
+      "upper_inclusive_c": 12.0,
+      "mode": 1,
+      "waveform_bytes": 535,
+      "differing_bytes": 152,
+      "percent_differing": 28.41,
+      "differing_payload_bytes": 148,
+      "payload_bytes": 528,
+      "differing_bits": 377,
+      "analog_header_266": "0026782c262408",
+      "analog_header_154": "00247828242008",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "c61cfea3d4309badda1f49bd97ddc11510723f43e8934332d9315c729694b46c",
+      "sha256_154": "2c3ebdb9c4e5ed1d2491460a8d9b215a75f200d6fd24c99f257a37c25f068d9a"
+    },
+    {
+      "band": 3,
+      "lower_exclusive_c": 9.0,
+      "upper_inclusive_c": 12.0,
+      "mode": 2,
+      "waveform_bytes": 535,
+      "differing_bytes": 80,
+      "percent_differing": 14.95,
+      "differing_payload_bytes": 78,
+      "payload_bytes": 528,
+      "differing_bits": 189,
+      "analog_header_266": "00147814142208",
+      "analog_header_154": "00147814142002",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "b5e4e25dc24d2d2a1df66d50a92c328c3623274887621c8072f469ae830b0c29",
+      "sha256_154": "0d88df312162ff1dff25b7016aa7ba360a7e3b42fc6eda5f2d2483661ddfd92d"
+    },
+    {
+      "band": 4,
+      "lower_exclusive_c": 12.0,
+      "upper_inclusive_c": 15.0,
+      "mode": 1,
+      "waveform_bytes": 535,
+      "differing_bytes": 135,
+      "percent_differing": 25.23,
+      "differing_payload_bytes": 131,
+      "payload_bytes": 528,
+      "differing_bits": 322,
+      "analog_header_266": "0026782c262008",
+      "analog_header_154": "00237828231408",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "829d8620190aedde6dd5a4bce7c38a21465cebfd4697008d84f5eb46bdce42d6",
+      "sha256_154": "0b85aa15f214932c866ef914f37bc3a098ec12b26256d4058c02037649b8f21b"
+    },
+    {
+      "band": 4,
+      "lower_exclusive_c": 12.0,
+      "upper_inclusive_c": 15.0,
+      "mode": 2,
+      "waveform_bytes": 535,
+      "differing_bytes": 25,
+      "percent_differing": 4.67,
+      "differing_payload_bytes": 23,
+      "payload_bytes": 528,
+      "differing_bits": 40,
+      "analog_header_266": "00147814142202",
+      "analog_header_154": "00147814141808",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "517d1c9bb8e80631bb7dc56ce43f0a553ce49d7826ce449630a94368125c8b27",
+      "sha256_154": "58db8e86088eb2073c38fceafb6ef1df273cc05648ce476d510719ea4455b4f4"
+    },
+    {
+      "band": 5,
+      "lower_exclusive_c": 15.0,
+      "upper_inclusive_c": 20.0,
+      "mode": 1,
+      "waveform_bytes": 535,
+      "differing_bytes": 183,
+      "percent_differing": 34.21,
+      "differing_payload_bytes": 179,
+      "payload_bytes": 528,
+      "differing_bits": 436,
+      "analog_header_266": "00227828222008",
+      "analog_header_154": "00237826231408",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "3f6ed66ddd21e46e52a2d0a9beca6cbef2cc3dc25868f0c43db0b03a111f2647",
+      "sha256_154": "1d3d1dc55320ce46c817b7ced4076ec522d8b52731d62e7ed0a16ec99725e46d"
+    },
+    {
+      "band": 5,
+      "lower_exclusive_c": 15.0,
+      "upper_inclusive_c": 20.0,
+      "mode": 2,
+      "waveform_bytes": 535,
+      "differing_bytes": 28,
+      "percent_differing": 5.23,
+      "differing_payload_bytes": 26,
+      "payload_bytes": 528,
+      "differing_bits": 45,
+      "analog_header_266": "00147814142002",
+      "analog_header_154": "00147814141808",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "3d6992ba7c1aeb161ca546686bf63bafa31be8f8862bef65d0d3818d2717c4b7",
+      "sha256_154": "2296d80eff72c05181156201452398a3662690e8fd6514fdd97e89db075eba11"
+    },
+    {
+      "band": 6,
+      "lower_exclusive_c": 20.0,
+      "upper_inclusive_c": 25.0,
+      "mode": 1,
+      "waveform_bytes": 535,
+      "differing_bytes": 149,
+      "percent_differing": 27.85,
+      "differing_payload_bytes": 145,
+      "payload_bytes": 528,
+      "differing_bits": 326,
+      "analog_header_266": "0022782d222008",
+      "analog_header_154": "0020782c201408",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "e81204bcc8dd464ebc54ccade6c2d945e77c89a14d9d02e1beb3e7ddda4d0752",
+      "sha256_154": "786473323a0847417cc04036b37faa107b5e2e7d824cffd52c126d6f9532f5a1"
+    },
+    {
+      "band": 6,
+      "lower_exclusive_c": 20.0,
+      "upper_inclusive_c": 25.0,
+      "mode": 2,
+      "waveform_bytes": 535,
+      "differing_bytes": 67,
+      "percent_differing": 12.52,
+      "differing_payload_bytes": 65,
+      "payload_bytes": 528,
+      "differing_bits": 156,
+      "analog_header_266": "00147814142408",
+      "analog_header_154": "00147814141402",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "85c4a1401b21a098f563040a044d06feb61925b32f92d8d21ea14e0cd435aff4",
+      "sha256_154": "464513739a13052927f740e37be08321a65c3bd6eee261224a4ed0208e52f76b"
+    },
+    {
+      "band": 7,
+      "lower_exclusive_c": 25.0,
+      "upper_inclusive_c": 30.0,
+      "mode": 1,
+      "waveform_bytes": 535,
+      "differing_bytes": 147,
+      "percent_differing": 27.48,
+      "differing_payload_bytes": 143,
+      "payload_bytes": 528,
+      "differing_bits": 321,
+      "analog_header_266": "0024782b242008",
+      "analog_header_154": "0020782e201408",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "b158db69cb8457a55c20082d5f18f4bbe3667657b07b7d417e8fef9bb4681a17",
+      "sha256_154": "02612d53455a5c2707dd0cf3cf9c935bac9f42ef433dae5a2cda86a789596a2f"
+    },
+    {
+      "band": 7,
+      "lower_exclusive_c": 25.0,
+      "upper_inclusive_c": 30.0,
+      "mode": 2,
+      "waveform_bytes": 535,
+      "differing_bytes": 18,
+      "percent_differing": 3.36,
+      "differing_payload_bytes": 16,
+      "payload_bytes": 528,
+      "differing_bits": 33,
+      "analog_header_266": "00147814142008",
+      "analog_header_154": "00147814141402",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "657e22dea00db675023b9734ec8214cb9a41c5bda308e91f10faafafdd29f1d5",
+      "sha256_154": "464513739a13052927f740e37be08321a65c3bd6eee261224a4ed0208e52f76b"
+    },
+    {
+      "band": 8,
+      "lower_exclusive_c": 30.0,
+      "upper_inclusive_c": 35.0,
+      "mode": 1,
+      "waveform_bytes": 535,
+      "differing_bytes": 150,
+      "percent_differing": 28.04,
+      "differing_payload_bytes": 147,
+      "payload_bytes": 528,
+      "differing_bits": 331,
+      "analog_header_266": "001e782e1e2008",
+      "analog_header_154": "0020782a202008",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "0c1e45115a47a97dfb1eb44a5c9bc1f2586e551468577abca3b561570fb259bb",
+      "sha256_154": "5bb0a0e21fbe0e0e60bf1502b892ecf17d3311d0aeaf1657458a4cb889a7a54a"
+    },
+    {
+      "band": 8,
+      "lower_exclusive_c": 30.0,
+      "upper_inclusive_c": 35.0,
+      "mode": 2,
+      "waveform_bytes": 535,
+      "differing_bytes": 77,
+      "percent_differing": 14.39,
+      "differing_payload_bytes": 75,
+      "payload_bytes": 528,
+      "differing_bits": 164,
+      "analog_header_266": "00147814142003",
+      "analog_header_154": "00147814141402",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "06737a7ee0dc3e02d499bcf57170d7c6f14835f06139d0aaf1ec9d04b5ac31f7",
+      "sha256_154": "550abb1fc707a4981f57393cdf17dc1440d0d39284c0662f86a8572939adb93e"
+    },
+    {
+      "band": 9,
+      "lower_exclusive_c": 35.0,
+      "upper_inclusive_c": 127.0,
+      "mode": 1,
+      "waveform_bytes": 535,
+      "differing_bytes": 118,
+      "percent_differing": 22.06,
+      "differing_payload_bytes": 114,
+      "payload_bytes": 528,
+      "differing_bits": 280,
+      "analog_header_266": "001f78321f2008",
+      "analog_header_154": "0020782e201808",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "d42c2ee8597f9fb51dfd6e1932c661b684ab77abb4b15be458109c7c2b2f5019",
+      "sha256_154": "65f670a93c1b811e5f697c54e112e577d1a78c1658a7db6314a03681a780058e"
+    },
+    {
+      "band": 9,
+      "lower_exclusive_c": 35.0,
+      "upper_inclusive_c": 127.0,
+      "mode": 2,
+      "waveform_bytes": 535,
+      "differing_bytes": 34,
+      "percent_differing": 6.36,
+      "differing_payload_bytes": 33,
+      "payload_bytes": 528,
+      "differing_bits": 62,
+      "analog_header_266": "00147814142003",
+      "analog_header_154": "00147814141403",
+      "extension_diff_offsets": [
+        544
+      ],
+      "sha256_266": "0d9df34bcc1bd3cb5823b10c4a811f8443951d77ae8d29e00415d1c46aa2ae48",
+      "sha256_154": "49dd66a7acca68e999f6e9adc07e9b81fdc93b2164a624cbc34daf7ae68a6d9a"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "reference_firmware": {
+    "file": "../firmware/EXPERIMENTAL_ATC_Nebular_154Q_266Q_Unified.bin",
+    "sha256": "be9fedc864d74d96f31697a99b629d56814e83225cb04e7cd9c61ff8ec7e083c",
+    "bytes": 129588
+  },
+  "atc_base": {
+    "sha256": "26dc327d40d7db62c3867da8a9ae0a5092728404ca9942eae402720b5d72337c",
+    "bytes": 116756
+  },
+  "source_files": [
+    {
+      "file": "panel.c",
+      "source_file": "panel.c",
+      "source_sha256": "e1d5d4661e5269c19facec527d004ab98599d359d86c25eeea5a981be8403da8",
+      "included_sha256": "e1d5d4661e5269c19facec527d004ab98599d359d86c25eeea5a981be8403da8",
+      "change": "Copied byte-for-byte from the unified-v2 source."
+    },
+    {
+      "file": "panel.h",
+      "source_file": "panel.h",
+      "source_sha256": "5092ea39a83630c2d412805467f55db41166542555d72361c9c112f9368e90bb",
+      "included_sha256": "5092ea39a83630c2d412805467f55db41166542555d72361c9c112f9368e90bb",
+      "change": "Copied byte-for-byte from the unified-v2 source."
+    },
+    {
+      "file": "adapter.c",
+      "source_file": "adapter.c",
+      "source_sha256": "29b8b72a9b912df72d5fb671450bbfad754d749be4d61fe635cbf96c870797db",
+      "included_sha256": "29b8b72a9b912df72d5fb671450bbfad754d749be4d61fe635cbf96c870797db",
+      "change": "Copied byte-for-byte from the unified-v2 source."
+    },
+    {
+      "file": "host_io.h",
+      "source_file": "host_io.h",
+      "source_sha256": "c6415d9fd19ed8fc36459ee6910fcf44d1d1b4350f597c48e1a216f4d84813f5",
+      "included_sha256": "c6415d9fd19ed8fc36459ee6910fcf44d1d1b4350f597c48e1a216f4d84813f5",
+      "change": "Copied byte-for-byte from the unified-v2 source."
+    },
+    {
+      "file": "waves.inc",
+      "source_file": "waves.inc",
+      "source_sha256": "d404d1ac3f2aea07e41aae8a85a4151dd6fd9f65f601d346f43da967f577b38c",
+      "included_sha256": "d404d1ac3f2aea07e41aae8a85a4151dd6fd9f65f601d346f43da967f577b38c",
+      "change": "Copied byte-for-byte from the unified-v2 source."
+    },
+    {
+      "file": "products.inc",
+      "source_file": "products.inc",
+      "source_sha256": "e253059232ca2800b007da9fef34dee7b9724be5a6bb5c663c88a4e8ba2d4d07",
+      "included_sha256": "e253059232ca2800b007da9fef34dee7b9724be5a6bb5c663c88a4e8ba2d4d07",
+      "change": "Copied byte-for-byte from the unified-v2 source."
+    },
+    {
+      "file": "test_adapter.c",
+      "source_file": "test_unified.c",
+      "source_sha256": "0bd96ca2687ddcab046c3f8a9b64385717281a768983c1c1e982524f5fe45f77",
+      "included_sha256": "bb1c99692b9968bdaccdf42e90473c45bd41cf80f71ef686941aa399b2c57bd9",
+      "change": "Corrected the printed refresh count only; test logic unchanged."
+    }
+  ],
+  "note": "Display driver and binary adapter source; not the source of the complete ATC firmware. Private flash backups are excluded."
+}
