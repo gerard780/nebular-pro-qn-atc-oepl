@@ -8,6 +8,10 @@ over Bluetooth and OpenEPaperLink (OEPL) radio using this exact unified v2 build
 
 This is an unofficial patch of Aaron Christophel / ATC1441's firmware.
 
+**For ATC1441 and firmware developers:** [display-driver source, all factory
+waveforms and integration notes](atc-review/README.md) cover both sizes, including
+the latest [1.54″ hardware and color findings](atc-review/154-FINDINGS.md).
+
 ## Download
 
 - [Experimental unified v2 release](https://github.com/gerard780/nebular-pro-qn-atc-oepl/releases/tag/unified-v2)

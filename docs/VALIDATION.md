@@ -7,7 +7,7 @@ Firmware SHA-256:
 
 | Check | Result |
 | --- | --- |
-| Host display tests | Two models × ten temperature bands × RAW1/RAW2; 80 paired refresh cases |
+| Host display tests | Two models × ten temperature bands × RAW1/RAW2; 40 paired cases / 80 component refreshes |
 | Factory waveforms | All 40 reconstructed waveforms byte-exact |
 | Additional host checks | Geometry, asymmetric pixel ordering, boot identity preservation, invalid input, unknown records, timer wrap and BUSY timeout |
 | Rebuild | Reproduced the included firmware byte for byte |
