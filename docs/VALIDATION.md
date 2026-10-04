@@ -44,6 +44,15 @@ Automatic type `0072`, geometry and pins were verified after restarting.
 A fresh RAW image also passed physical inspection for text, orientation,
 four colors and rectangle outlines after correcting the test bitmap's layout.
 
+## Separate extra-color research
+
+Later chart diagnostics physically exposed orange/coral and two gray states
+on the tested 154 and legacy-record 266 using their own factory LUTs. These
+were separate experimental applications, not the included unified v2 binary.
+Their results do not add seven-color image support to this release. See the
+[color experiment and its validation limits](LUT-COLORS.md), including the
+266 recovery without bulk readback and the limits of the sixteen-code test.
+
 ## Still unverified
 
 - Browser UART installation on the 154, newer-record 266 or from factory firmware.

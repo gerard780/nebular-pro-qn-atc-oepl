@@ -126,11 +126,16 @@ The supported factory codes in the released core remain `1, 4, 5, 6, 7, 9, 13`.
 
 The published unified v2 adapter maps incoming RAW1/RAW2 data to only four
 codes (`5, 4, 13, 9`). Diagnostic firmware recolors fixed chart cells; it is
-not an arbitrary seven-color image decoder. General extra-color support needs
-an agreed image encoding, AP/uploader changes, decoding and repeatability,
+not an arbitrary seven-color image decoder. OEPL already defines 3-bit and
+4-bit raw image formats. General extra-color support needs matching tag-side
+receiver/decoder support, AP profiles, uploader changes and repeatability,
 ghosting/transition and temperature testing. Adding three palette entries to
 an AP profile alone cannot encode the extra states.
 
 These results support native integration of the two recovered panel variants
 and further palette research. They do not change the released binary or expand
 its input formats, hardware scope or physical temperature coverage.
+
+See the [LUT research page](../docs/LUT-COLORS.md) for the palette mechanism,
+photographs, installation scope and the proposed use of OEPL's existing
+higher-bit-depth image formats.

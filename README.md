@@ -12,13 +12,26 @@ This is an unofficial patch of Aaron Christophel / ATC1441's firmware.
 waveforms and integration notes](atc-review/README.md) cover both sizes, including
 the latest [1.54″ hardware and color findings](atc-review/154-FINDINGS.md).
 
-Both tested panels also displayed sixteen component-code combinations in
-separate diagnostics. The latest 2.66″ photo shows orange, pink/salmon, mauve,
-khaki and gray shades. Several codes look similar; sixteen distinct, repeatable
-colors are not established. The released firmware still accepts four-color
-images. See the [color findings](atc-review/154-FINDINGS.md#sixteen-combinations-on-both-panels).
+## Research: orange and gray beyond the four-color image path
 
-![Cropped owner photograph of the Pro-266Q-N sixteen-code chart](atc-review/images/266-16-codes-cropped.png)
+Separate bench diagnostics on **both tested panel sizes** displayed seven
+visible palette states: white, black, red, yellow, **orange/coral, light gray
+and dark gray**. The extra codes were already in the recovered factory palette;
+the experiments used each panel's existing LUTs without changing waveform
+timing or analog voltage settings.
+
+![Extra-color diagnostics on the 2.66-inch and 1.54-inch panels](atc-review/images/both-panels-brighter.jpg)
+
+The **unified v2 download still supports four-color image uploads**. OEPL already
+has 3-bit and 4-bit image formats; this tag firmware needs receiver and decoder
+support for them before arbitrary extra-color images can be uploaded. A further
+16-code test on both sizes produced additional shades. A clearer 2.66 photograph shows
+pink/salmon, mauve and khaki tones, but does not establish sixteen distinct
+usable colors.
+
+![Owner photograph of the 2.66-inch sixteen-code chart](atc-review/images/266-16-codes-cropped.png)
+
+Read the [color findings, palette codes, photographs and validation limits](docs/LUT-COLORS.md).
 
 ## Download
 
