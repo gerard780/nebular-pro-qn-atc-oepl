@@ -1,0 +1,19 @@
+{
+  "source_url": "https://atc1441.github.io/ATC_BLE_OEPL_Image_Upload.html",
+  "inspected_date": "2026-10-04",
+  "source_sha256": "0206e12c08bff05f527a3304fe34c9f0a42fbca55149aef37b93cbcb96d06901",
+  "firmware_sha256": "be9fedc864d74d96f31697a99b629d56814e83225cb04e7cd9c61ff8ec7e083c",
+  "method": "Extracted upstream setUartFirmware, sendFw, uartFlashWrite; Node VM with simulated flash operations",
+  "uart_file_selection_passed": true,
+  "ble_frontend_format_check_passed": true,
+  "simulated_uart_writer_passed": true,
+  "application_bytes_written": 129588,
+  "sector_erase_count": 32,
+  "first_erased_sector": "0x00000",
+  "last_erased_sector": "0x1f000",
+  "erase_end_exclusive": "0x20000",
+  "write_blocks": 507,
+  "bytes_at_and_above_0x20000_unchanged": true,
+  "physical_browser_uart_installation": "Untested",
+  "ble_ota_installation": "Unverified; frontend acceptance alone does not validate hardware update behavior"
+}

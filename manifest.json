@@ -1,0 +1,351 @@
+{
+  "firmware": "firmware/EXPERIMENTAL_ATC_Nebular_154Q_266Q_Unified.bin",
+  "sha256": "be9fedc864d74d96f31697a99b629d56814e83225cb04e7cd9c61ff8ec7e083c",
+  "bytes": 129588,
+  "core_bytes": 1148,
+  "payload_bytes": 12592,
+  "compressed_waveform_bytes": 9968,
+  "reserved_state_bytes": 300,
+  "models": [
+    {
+      "name": "Nebular Pro-266Q-N",
+      "case": "E3LW2",
+      "pcb": "HSEL7_02_66M_30",
+      "dimensions": [
+        152,
+        296
+      ],
+      "type": "72",
+      "preset": 17
+    },
+    {
+      "name": "Nebular Pro-154Q-N",
+      "case": "C3HW2",
+      "pcb": "HSEL4Q_01_54M_39",
+      "dimensions": [
+        200,
+        200
+      ],
+      "type": "73",
+      "preset": 38
+    }
+  ],
+  "detection": "Exact 92-byte preserved factory product record at 0x7e000; unknown record selects no-display preset 0",
+  "waveforms": [
+    {
+      "model": 0,
+      "band": 0,
+      "mode": 1,
+      "source_sha256": "49ab0980d4a44fe580eaf66c8286cf6de95962c9b896390d1de50fe3e574e7e1",
+      "compressed_bytes": 360
+    },
+    {
+      "model": 0,
+      "band": 0,
+      "mode": 2,
+      "source_sha256": "9a84375a8ef522403698f15025a4b0c47124743e7146b826cbe0a4c389fcfdb9",
+      "compressed_bytes": 134
+    },
+    {
+      "model": 0,
+      "band": 1,
+      "mode": 1,
+      "source_sha256": "d1dcec66beeaf2758862c0e68fcdab4fa4c391221fa7b77af9ab4d762c28b8ff",
+      "compressed_bytes": 365
+    },
+    {
+      "model": 0,
+      "band": 1,
+      "mode": 2,
+      "source_sha256": "20d6335f660a90bc830b410e23d6aa486b7e8b55ed0d80bc5578e1b1d7deb662",
+      "compressed_bytes": 134
+    },
+    {
+      "model": 0,
+      "band": 2,
+      "mode": 1,
+      "source_sha256": "e00c1ba66176f86b685899afe8a0e8a05d48d9868d3db7a2df03b7eb481ba17c",
+      "compressed_bytes": 376
+    },
+    {
+      "model": 0,
+      "band": 2,
+      "mode": 2,
+      "source_sha256": "bdb9cf265051decb69cfd64c0dfd408f914ad4925b805489fc687d6317a0f7be",
+      "compressed_bytes": 138
+    },
+    {
+      "model": 0,
+      "band": 3,
+      "mode": 1,
+      "source_sha256": "c61cfea3d4309badda1f49bd97ddc11510723f43e8934332d9315c729694b46c",
+      "compressed_bytes": 352
+    },
+    {
+      "model": 0,
+      "band": 3,
+      "mode": 2,
+      "source_sha256": "b5e4e25dc24d2d2a1df66d50a92c328c3623274887621c8072f469ae830b0c29",
+      "compressed_bytes": 138
+    },
+    {
+      "model": 0,
+      "band": 4,
+      "mode": 1,
+      "source_sha256": "829d8620190aedde6dd5a4bce7c38a21465cebfd4697008d84f5eb46bdce42d6",
+      "compressed_bytes": 353
+    },
+    {
+      "model": 0,
+      "band": 4,
+      "mode": 2,
+      "source_sha256": "517d1c9bb8e80631bb7dc56ce43f0a553ce49d7826ce449630a94368125c8b27",
+      "compressed_bytes": 150
+    },
+    {
+      "model": 0,
+      "band": 5,
+      "mode": 1,
+      "source_sha256": "3f6ed66ddd21e46e52a2d0a9beca6cbef2cc3dc25868f0c43db0b03a111f2647",
+      "compressed_bytes": 350
+    },
+    {
+      "model": 0,
+      "band": 5,
+      "mode": 2,
+      "source_sha256": "3d6992ba7c1aeb161ca546686bf63bafa31be8f8862bef65d0d3818d2717c4b7",
+      "compressed_bytes": 150
+    },
+    {
+      "model": 0,
+      "band": 6,
+      "mode": 1,
+      "source_sha256": "e81204bcc8dd464ebc54ccade6c2d945e77c89a14d9d02e1beb3e7ddda4d0752",
+      "compressed_bytes": 344
+    },
+    {
+      "model": 0,
+      "band": 6,
+      "mode": 2,
+      "source_sha256": "85c4a1401b21a098f563040a044d06feb61925b32f92d8d21ea14e0cd435aff4",
+      "compressed_bytes": 129
+    },
+    {
+      "model": 0,
+      "band": 7,
+      "mode": 1,
+      "source_sha256": "b158db69cb8457a55c20082d5f18f4bbe3667657b07b7d417e8fef9bb4681a17",
+      "compressed_bytes": 341
+    },
+    {
+      "model": 0,
+      "band": 7,
+      "mode": 2,
+      "source_sha256": "657e22dea00db675023b9734ec8214cb9a41c5bda308e91f10faafafdd29f1d5",
+      "compressed_bytes": 141
+    },
+    {
+      "model": 0,
+      "band": 8,
+      "mode": 1,
+      "source_sha256": "0c1e45115a47a97dfb1eb44a5c9bc1f2586e551468577abca3b561570fb259bb",
+      "compressed_bytes": 365
+    },
+    {
+      "model": 0,
+      "band": 8,
+      "mode": 2,
+      "source_sha256": "06737a7ee0dc3e02d499bcf57170d7c6f14835f06139d0aaf1ec9d04b5ac31f7",
+      "compressed_bytes": 133
+    },
+    {
+      "model": 0,
+      "band": 9,
+      "mode": 1,
+      "source_sha256": "d42c2ee8597f9fb51dfd6e1932c661b684ab77abb4b15be458109c7c2b2f5019",
+      "compressed_bytes": 365
+    },
+    {
+      "model": 0,
+      "band": 9,
+      "mode": 2,
+      "source_sha256": "0d9df34bcc1bd3cb5823b10c4a811f8443951d77ae8d29e00415d1c46aa2ae48",
+      "compressed_bytes": 136
+    },
+    {
+      "model": 1,
+      "band": 0,
+      "mode": 1,
+      "source_sha256": "91726f152779fd8a559fcf6f2bfd9f154f416c0b7748334d77721bebb8ceb9c9",
+      "compressed_bytes": 389
+    },
+    {
+      "model": 1,
+      "band": 0,
+      "mode": 2,
+      "source_sha256": "40764087b8c585c8650975f46799781bd37df5b03fea6fb559c20b4e5cd78c89",
+      "compressed_bytes": 139
+    },
+    {
+      "model": 1,
+      "band": 1,
+      "mode": 1,
+      "source_sha256": "67ef1dd0404aa0a7deb549ef22838bdaaf25fb5629530376ef3ca41d8314634f",
+      "compressed_bytes": 393
+    },
+    {
+      "model": 1,
+      "band": 1,
+      "mode": 2,
+      "source_sha256": "213eb95d81f70019e2723da4e7b1dc37495f67865d6ca588a1ce6916c5b7f1db",
+      "compressed_bytes": 152
+    },
+    {
+      "model": 1,
+      "band": 2,
+      "mode": 1,
+      "source_sha256": "4af06e7134041529544cf6bc4f92fd0d75bcad365a6d3c013182a1e3c2b3201e",
+      "compressed_bytes": 345
+    },
+    {
+      "model": 1,
+      "band": 2,
+      "mode": 2,
+      "source_sha256": "1a753d5a84cab6c74b7b3f5030c9e7f4c9b863691cb0a2f02a5afe57fe8bbcad",
+      "compressed_bytes": 147
+    },
+    {
+      "model": 1,
+      "band": 3,
+      "mode": 1,
+      "source_sha256": "2c3ebdb9c4e5ed1d2491460a8d9b215a75f200d6fd24c99f257a37c25f068d9a",
+      "compressed_bytes": 341
+    },
+    {
+      "model": 1,
+      "band": 3,
+      "mode": 2,
+      "source_sha256": "0d88df312162ff1dff25b7016aa7ba360a7e3b42fc6eda5f2d2483661ddfd92d",
+      "compressed_bytes": 147
+    },
+    {
+      "model": 1,
+      "band": 4,
+      "mode": 1,
+      "source_sha256": "0b85aa15f214932c866ef914f37bc3a098ec12b26256d4058c02037649b8f21b",
+      "compressed_bytes": 339
+    },
+    {
+      "model": 1,
+      "band": 4,
+      "mode": 2,
+      "source_sha256": "58db8e86088eb2073c38fceafb6ef1df273cc05648ce476d510719ea4455b4f4",
+      "compressed_bytes": 151
+    },
+    {
+      "model": 1,
+      "band": 5,
+      "mode": 1,
+      "source_sha256": "1d3d1dc55320ce46c817b7ced4076ec522d8b52731d62e7ed0a16ec99725e46d",
+      "compressed_bytes": 342
+    },
+    {
+      "model": 1,
+      "band": 5,
+      "mode": 2,
+      "source_sha256": "2296d80eff72c05181156201452398a3662690e8fd6514fdd97e89db075eba11",
+      "compressed_bytes": 151
+    },
+    {
+      "model": 1,
+      "band": 6,
+      "mode": 1,
+      "source_sha256": "786473323a0847417cc04036b37faa107b5e2e7d824cffd52c126d6f9532f5a1",
+      "compressed_bytes": 357
+    },
+    {
+      "model": 1,
+      "band": 6,
+      "mode": 2,
+      "source_sha256": "464513739a13052927f740e37be08321a65c3bd6eee261224a4ed0208e52f76b",
+      "compressed_bytes": 136
+    },
+    {
+      "model": 1,
+      "band": 7,
+      "mode": 1,
+      "source_sha256": "02612d53455a5c2707dd0cf3cf9c935bac9f42ef433dae5a2cda86a789596a2f",
+      "compressed_bytes": 354
+    },
+    {
+      "model": 1,
+      "band": 7,
+      "mode": 2,
+      "source_sha256": "464513739a13052927f740e37be08321a65c3bd6eee261224a4ed0208e52f76b",
+      "compressed_bytes": 136
+    },
+    {
+      "model": 1,
+      "band": 8,
+      "mode": 1,
+      "source_sha256": "5bb0a0e21fbe0e0e60bf1502b892ecf17d3311d0aeaf1657458a4cb889a7a54a",
+      "compressed_bytes": 371
+    },
+    {
+      "model": 1,
+      "band": 8,
+      "mode": 2,
+      "source_sha256": "550abb1fc707a4981f57393cdf17dc1440d0d39284c0662f86a8572939adb93e",
+      "compressed_bytes": 137
+    },
+    {
+      "model": 1,
+      "band": 9,
+      "mode": 1,
+      "source_sha256": "65f670a93c1b811e5f697c54e112e577d1a78c1658a7db6314a03681a780058e",
+      "compressed_bytes": 354
+    },
+    {
+      "model": 1,
+      "band": 9,
+      "mode": 2,
+      "source_sha256": "49dd66a7acca68e999f6e9adc07e9b81fdc93b2164a624cbc34daf7ae68a6d9a",
+      "compressed_bytes": 133
+    }
+  ],
+  "temperature_selection": "All ten captured factory bands; signed MCU temperature and inclusive upper limits",
+  "status": "Experimental; guarded wired installation and physical BLE/OEPL image delivery verified on one 154 and one legacy-record 266",
+  "limitations": [
+    "RAW1/RAW2 only; compressed images rejected",
+    "Physical temperature coverage outside previously tested ambient bands unverified",
+    "Wired installation only; OTA not validated",
+    "Local experimental OEPL IDs 72 and 73; not upstream allocations"
+  ],
+  "revision": "unified-v2",
+  "accepted_product_records": [
+    {
+      "name": "Nebular Pro-266Q-N E3LW2 HSEL7_02_66M_30",
+      "record_hex": "36150c0c210300000000000000020b0005009800280104017d0040100000000000000000000000000000000084040418612000000800000f000f00000000e8031e00f21d8a2300000000000000000000000000000000000000000000",
+      "model": 0
+    },
+    {
+      "name": "Nebular Pro-154Q-N C3HW2 HSEL4Q_01_54M_39",
+      "record_hex": "f1500c0c210300000000000000020b000200c800c8009a00b70040100000000000000000000000000000000085040424611000000800000000000000000000000000f21d8a2300000000000000000000000000000000000000000000",
+      "model": 1
+    },
+    {
+      "name": "Nebular Pro-266Q-N previously tested tag (legacy product record)",
+      "record_hex": "e36a0c0c210300000000000000020b0005009800280104017d0040100000000000000000000000000000000084040218612000002000000f000f00000000e8031e00f21d8a2300000000000000000000000000000000000000000000",
+      "model": 0
+    }
+  ],
+  "profile_revision": "2026-10-04, version 2",
+  "browser_uart_installation": "Source checks passed; browser-to-hardware installation untested",
+  "ble_ota_installation": "Unverified",
+  "application_start": 0,
+  "application_erase_end_exclusive": 131072,
+  "profiles": [
+    "tagtypes/72.json",
+    "tagtypes/73.json"
+  ]
+}
