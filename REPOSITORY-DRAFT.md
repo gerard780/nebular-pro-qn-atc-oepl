@@ -1,6 +1,6 @@
 # GitHub repository draft
 
-Suggested repository: **`gerard780/hanshow-nebular-unified`**
+Suggested repository: **`gerard780/hanshow-nebular-pro-154q-n-266q-n`**
 
 Description: Experimental unified ATC BLE / OpenEPaperLink firmware for supported
 Hanshow Nebular Pro-154Q-N and Pro-266Q-N tags.
@@ -11,8 +11,8 @@ repository, public upload or release has been created.
 Suggested topics: `hanshow`, `nebular`, `epaper`, `openepaperlink`, `telink`,
 `tlsr8359`, `bluetooth`, `firmware`.
 
-Suggested first release: **`unified-v2`**, titled **Unified v2 — 1.54″ and 2.66″
-Nebular Pro (experimental)**, marked as a **prerelease**.
+Suggested first release: **`unified-v2`**, titled **Nebular Pro-154Q-N / Pro-266Q-N
+— unified v2 (experimental)**, marked as a **prerelease**.
 
 Release body:
 

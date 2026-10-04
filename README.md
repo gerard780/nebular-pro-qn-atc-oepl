@@ -1,4 +1,4 @@
-# Hanshow Nebular — unified ATC BLE / OpenEPaperLink firmware
+# Hanshow Nebular Pro-154Q-N / Pro-266Q-N — unified firmware
 
 One experimental firmware binary for the **1.54″ Nebular Pro-154Q-N** and
 **2.66″ Nebular Pro-266Q-N** revisions listed below. It detects a supported
