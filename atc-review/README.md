@@ -1,12 +1,20 @@
 # ATC1441 developer handoff — unified Nebular Pro Q-N driver
 
-Draft for native firmware integration, updated 4 October 2026.
+Developer reference for native firmware integration, updated 4 October 2026.
 
 This directory contains the **display-driver and binary-adapter source behind
 the released unified v2 application** for supported **Nebular Pro-154Q-N** and
 **Pro-266Q-N** records. It updates the earlier 266-only V5 handoff with the
 200 × 200 driver path, exact product-record detection, both panels' temperature
-waveforms and the latest physical color observations.
+waveforms and the latest physical color observations, including the subsequent
+sixteen-code chart on the 266.
+
+![Latest cropped owner photo of the 266 sixteen-code diagnostic](images/266-16-codes-cropped.png)
+
+*Separate diagnostic, photographed by the owner. All sixteen input combinations
+were displayed, but sixteen distinct repeatable colors are not established.
+The released firmware still supplies four colors. See the [findings and photo
+provenance](154-FINDINGS.md#sixteen-combinations-on-both-panels).*
 
 The intended upstream change is a distinct panel variant with two supported
 configurations. Similar names or PCB markings do not establish compatibility.
@@ -150,11 +158,13 @@ firmware. See [binary validation](../docs/VALIDATION.md) and
 [browser test](../docs/BROWSER-TEST.md).
 
 The latest 154 diagnostics used its own band-7 pair at 29°C and displayed seven
-factory palette states. The 16-code chart at 28°C produced additional tones,
-without establishing sixteen distinct repeatable colors. The separate 266
-color diagnostic used its own band-6 pair; its final recovery omitted bulk
-readback. Neither diagnostic changes the released binary's validation or adds
-general seven-color image support.
+factory palette states. Its 16-code chart at 28°C produced additional tones.
+The 266 subsequently displayed all sixteen combinations in two transfers at
+MCU 24°C using its own band-6 pair. The owner photo shows orange, pink/salmon,
+mauve, khaki and gray shades, without establishing sixteen distinct repeatable
+colors. The separate 266 diagnostics omitted bulk application readback.
+Neither diagnostic changes the released binary's validation or adds general
+seven-color image support.
 
 Extreme-temperature operation, other revisions, BLE/OTA installation,
 integrated text/clock rendering and custom-LUT integration remain unvalidated

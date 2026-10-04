@@ -81,7 +81,7 @@ uses increased camera exposure/gain with unchanged contrast/saturation and no
 digital color correction. These are visual observations under uncalibrated
 lighting, not measured gamut or guaranteed matches to factory RGB labels.
 
-## Sixteen combinations are exploratory
+## Sixteen combinations on both panels
 
 The 154 also received all sixteen four-bit combinations in two chart transfers
 at a measured MCU temperature of 28°C:
@@ -93,10 +93,36 @@ at a measured MCU temperature of 28°C:
 10  11  12  14
 ```
 
-Some additional cells produced dark neutral or warm tones, and several looked
-similar. This does **not** establish sixteen distinct, repeatable usable
-colors. These out-of-palette codes are not enabled by the released `panel.c`.
-The supported factory codes in the core remain `1, 4, 5, 6, 7, 9, 13`.
+The legacy-record 266 subsequently displayed the same matrix in two transfers
+using its own unmodified band-6 waveform pair at MCU temperature 24°C. The
+first transfer completed at 20:57:29 UTC (EPD 25°C); the repeat completed at
+20:59:22 UTC (EPD 24°C). Settled webcam photographs were taken about 49 seconds
+later, and both charts looked broadly consistent.
+
+![Cropped owner photograph of the repeated 266 sixteen-code chart](images/266-16-codes-cropped.png)
+
+The owner supplied this clearer photograph of the repeated chart, whose display
+timestamp is 20:59:18 UTC. Orange is strong at code 1; codes 2 and 14 appear
+pink/salmon, code 15 mauve, code 10 khaki, and code 11 another neutral gray.
+Some dark combinations and warm shades still look similar. These are visual
+descriptions, not calibrated color measurements. Camera settings and actual
+photograph time were not supplied.
+
+This is a rectangular crop of the [original owner photograph](images/266-16-codes-original.jpg).
+No resizing, perspective correction or color adjustment was applied to the
+published crop. [Photo provenance](images/266-16-codes-provenance.json) records
+the original hash and crop rectangle.
+
+The 266 sixteen-code diagnostic programmed all seven changed application
+sectors, committed sector zero last, restored flash protection and booted.
+Bulk readback was omitted at the owner's request. Successful BLE configuration,
+both image transfers and physical photographs establish the chart result;
+they do not establish a measured final application hash for that diagnostic.
+
+Both panels produced extra visible tones. This does **not** establish sixteen
+distinct, repeatable usable colors. These out-of-palette codes are not enabled
+by the released `panel.c`; the diagnostic widened its accepted codes to 0–15.
+The supported factory codes in the released core remain `1, 4, 5, 6, 7, 9, 13`.
 
 The published unified v2 adapter maps incoming RAW1/RAW2 data to only four
 codes (`5, 4, 13, 9`). Diagnostic firmware recolors fixed chart cells; it is

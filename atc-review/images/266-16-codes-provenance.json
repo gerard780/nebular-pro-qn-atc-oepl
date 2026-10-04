@@ -1,0 +1,19 @@
+{
+  "source": "Owner-supplied photograph of the repeated Pro-266Q-N sixteen-code chart, received 4 October 2026",
+  "original_file": "266-16-codes-original.jpg",
+  "original_sha256": "687aedd823340e799b683369d2afddf7c6a4e628f2b517d5340eaa2e0b8c9632",
+  "original_dimensions": [
+    3840,
+    2880
+  ],
+  "crop_file": "266-16-codes-cropped.png",
+  "crop_sha256": "cf8e6757259e80b633cfaaa5ba38fb71bd3015bb76473cadc96e3da08accaee9",
+  "crop_rectangle": {
+    "x": 560,
+    "y": 620,
+    "width": 2900,
+    "height": 1510
+  },
+  "processing": "Rectangular crop only, saved as PNG; no scaling, perspective correction or color adjustment.",
+  "camera_settings": "Not supplied; do not infer flash usage or calibration."
+}
