@@ -1,5 +1,16 @@
 # Hanshow Nebular Pro-154Q-N / Pro-266Q-N — unified firmware
 
+> **Need another Hanshow tag supported?** Please take a complete, verified
+> readback of its **original factory firmware before flashing anything**, then
+> send it to **[Gerard780](https://github.com/gerard780)** with the exact model,
+> hardware/PCB revision and clear board/display photos. Two matching reads and
+> the dump's SHA-256 help establish that it is usable. See the
+> **[RP2040 programmer source, wiring diagram and readback guide](https://github.com/gerard780/hanshow-rp2040-programmer)**.
+> [Open a support request](https://github.com/gerard780/nebular-pro-qn-atc-oepl/issues/new?title=Hanshow%20tag%20support%20request)
+> to coordinate sending the files. The reader probes compatible legacy Telink
+> hardware; other MCU families need an appropriate readback method. A dump is
+> a starting point for investigation and does not guarantee support.
+
 One experimental firmware binary for the **1.54″ Nebular Pro-154Q-N** and
 **2.66″ Nebular Pro-266Q-N** revisions listed below. It detects a supported
 factory product record and selects the panel configuration automatically.
