@@ -10,6 +10,8 @@ This is an unofficial patch of Aaron Christophel / ATC1441's firmware.
 
 ## Download
 
+- [Experimental unified v2 release](https://github.com/gerard780/hanshow-nebular-pro-154q-n-266q-n/releases/tag/unified-v2)
+  — firmware, both AP profiles, a complete package ZIP and release checksums.
 - [Unified v2 firmware](firmware/EXPERIMENTAL_ATC_Nebular_154Q_266Q_Unified.bin)
   — **129,588 bytes**, the same file for both sizes.
 - OEPL AP profiles: [2.66″ / 72.json](tagtypes/72.json) and

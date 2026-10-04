@@ -18,8 +18,8 @@ waveform material.
 
 Existing project records leave public redistribution permissions for the
 combined ATC/manufacturer firmware unresolved. No blanket firmware license or
-third-party redistribution permission is granted by this draft. Document the
-applicable permissions before publishing the binary publicly.
+third-party redistribution permission is granted by this repository. Publication
+does not resolve that component licensing status.
 
 ## AP profiles
 

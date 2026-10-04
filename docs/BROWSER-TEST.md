@@ -46,7 +46,7 @@ No full-chip erase or browser display-type write was used. The browser source
 and its serial implementation were not modified for the test.
 
 Full backups and device-specific readback files are retained privately and are
-excluded from the public draft. The source fingerprint and compact hardware
+excluded from this repository. The source fingerprint and compact hardware
 results are in [flasher-compatibility.json](flasher-compatibility.json).
 
 ## Display check
