@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "package": "Nebular_437Q_N_Test_Firmware_v2.zip",
+  "bytes": 277751,
+  "sha256": "8abd542daaa6ee9710acefc86de38d0f09f2f1e92a2c2f7b499d28dad877ded2",
+  "firmware": "EXPERIMENTAL_ATC_Nebular_437Q_N_v2.bin",
+  "firmware_sha256": "686702649d7f4d181c5e5d99972a7932231577ace95417973c9c9d70d6a0fcf2",
+  "status": "Offline checks passed; NOT physically tested"
+}

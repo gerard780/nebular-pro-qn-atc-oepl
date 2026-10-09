@@ -65,6 +65,11 @@ be9fedc864d74d96f31697a99b629d56814e83225cb04e7cd9c61ff8ec7e083c
 
 ## Supported hardware
 
+For the separate **experimental 437Q-N** build, use the
+[latest 437Q-N test package](https://github.com/gerard780/nebular-pro-qn-atc-oepl/raw/refs/heads/main/firmware/Nebular_437Q_N_Test_Firmware_latest.zip).
+This link updates automatically when newer numbered packages are uploaded.
+See the [437 download notes and current validation status](firmware/README.md).
+
 | Model | Case revision | PCB | Native resolution | OEPL type (hex) |
 | --- | --- | --- | --- | --- |
 | Nebular Pro-154Q-N | C3HW2 | HSEL4Q_01_54M_39 | 200 × 200 | `0073` |

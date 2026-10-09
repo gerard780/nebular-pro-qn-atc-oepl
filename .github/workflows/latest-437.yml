@@ -1,0 +1,41 @@
+name: Update latest 437 test firmware
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'firmware/Nebular_437Q_N_Test_Firmware_v*.zip'
+      - 'tools/update_latest_437.py'
+      - '.github/workflows/latest-437.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: latest-437
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+      - name: Validate package and refresh stable download
+        run: python3 tools/update_latest_437.py
+      - name: Commit updated download
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -f -- firmware/Nebular_437Q_N_Test_Firmware_latest.zip firmware/Nebular_437Q_N_Test_Firmware_latest.zip.sha256 firmware/Nebular_437Q_N_Test_Firmware_latest.json
+          if git diff --cached --quiet; then
+            echo "Latest download is already current."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update latest 437 test firmware download'
+          git push origin HEAD:main
